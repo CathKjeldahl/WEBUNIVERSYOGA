@@ -1,0 +1,533 @@
+
+
+
+
+.forside {
+    background-size: cover;
+}
+
+body {
+    background-color: #e9edc9;
+}
+
+
+
+/*-------Header-------*/
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items:center
+}
+
+.logo {
+    max-width: 100%;
+    height: auto;
+    
+  
+}
+
+
+
+/*-------navigation bar-------*/
+.navbar {
+background-color: #FEFAE0;
+padding: 10px 20px;
+border-top: 3px solid #513e2b;
+border-bottom: 3px solid #513e2b;
+}
+
+.navlinks {
+display: flex;
+position: relative;
+align-items: center;
+justify-content: space-between;
+font-size: 20px;
+transition: 0.3s;
+}
+a:link{
+    text-decoration: none!important;
+  }
+a {
+    color: #513e2b;
+}
+
+ul {
+    list-style-type: none;
+   
+}
+
+.navlinks a:hover {
+    box-shadow: 0px -5px 0px #513e2b inset, /* A shadow on the top inside */
+    0px 5px 0px #513e2b inset;  /* A shadow on the bottom inside */
+padding: 10px 20px; /* Adjust the padding if needed */
+transition: all 0.3s ease; /* Optional: smooth transition effect */
+}
+
+
+
+/*-------body-------*/
+body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.forside {
+    height: auto;
+    width: 65%;
+
+}
+
+.planter {
+    opacity: 50%;
+    z-index: -1;
+}
+
+  /* Basic styles for the boxone */
+
+.boxone  {
+    width: 500px;                /* Width of the box */
+    padding: 20px;               /* Padding inside the box */
+    background-color: #FEFAE0;   /* Background color */
+    border: 10px solid#e9edc9;      /* Border around the box */
+    border-radius: 10px;         /* Rounded corners */
+    text-align:center;          /* Center the text inside the box */
+    position: absolute;
+    position: flex;
+    z-index: 1000;
+    top: 50%;
+    right: 0;
+    margin-right: 20%;
+ 
+
+    
+}
+
+/* Add margin or spacing around elements in the box */
+.boxone h2 {
+    margin-bottom: 10px;         /* Space below the heading */
+}
+
+.boxone p {
+    margin-bottom: 10px;         /* Space below the paragraph */
+}
+
+.boxone a {
+    color: #513e2b;              /* Link color */
+    text-decoration: none;       /* Remove underline from link */
+}
+
+.boxone a:hover {
+    text-decoration: underline;  /* Underline on hover */
+}
+
+  /* Basic styles for the boxtwo */
+
+  .boxtwo  {
+    width: 300px;                /* Width of the box */
+    padding: 20px;               /* Padding inside the box */
+    background-color: #FEFAE0;   /* Background color */
+    border: 6 solid #e9edc9;      /* Border around the box */
+    border-radius: 10px;         /* Rounded corners */
+    text-align:center;          /* Center the text inside the box */
+    position: absolute;
+    position: flex;
+    z-index: 1000;
+    top: 50%;
+    right: 10%;
+
+    
+}
+
+/* Add margin or spacing around elements in the boxtwo */
+.boxtwo h2 {
+    margin-bottom: 10px;         /* Space below the heading */
+}
+
+.boxtwo p {
+    margin-bottom: 10px;         /* Space below the paragraph */
+}
+
+.boxtwo a {
+    color: #513e2b;              /* Link color */
+    text-decoration: none;       /* Remove underline from link */
+}
+
+.boxtwo a:hover {
+    text-decoration: underline;  /* Underline on hover */
+}
+
+  /* Basic styles for the boxthree */
+
+  .boxthree  {
+    width: 500px;                /* Width of the box */
+    padding: 20px;               /* Padding inside the box */
+    background-color: #FEFAE0;   /* Background color */
+    border: 10px solid#e9edc9;      /* Border around the box */
+    border-radius: 10px;         /* Rounded corners */
+    text-align:center;          /* Center the text inside the box */
+    position: absolute;
+    position: flex;
+    z-index: 1000;
+    top: 79%;
+    right: 0;
+    margin-right: 10%;
+ 
+
+    
+}
+
+/* Add margin or spacing around elements in the box */
+.boxthree h2 {
+    margin-bottom: 10px;         /* Space below the heading */
+}
+
+.boxthree p {
+    margin-bottom: 10px;         /* Space below the paragraph */
+}
+
+.boxthree a {
+    color: #513e2b;              /* Link color */
+    text-decoration: none;       /* Remove underline from link */
+}
+
+.boxthree a:hover {
+    text-decoration: underline;  /* Underline on hover */
+}
+
+.boxthreebillede {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+  /* Boxh1 */
+
+  .boxh1  {
+    width: 500px;                /* Width of the box */
+    padding: 20px;               /* Padding inside the box */
+    background-color: #FEFAE0;   /* Background color */
+    border: 10px solid#e9edc9;      /* Border around the box */
+    border-radius: 20px;         /* Rounded corners */
+    text-align:center;          /* Center the text inside the box */
+    position: flex;
+    position: absolute;
+    z-index: 1000;
+    top: 50%;
+    right: 0%;
+
+ 
+   
+  }
+  /* Add margin or spacing around elements in the box */
+.boxh1 h2 {
+    margin-bottom: 10px;         /* Space below the heading */
+}
+
+.boxh1 p {
+    margin-bottom: 10px;         /* Space below the paragraph */
+}
+
+.boxh1 a {
+    color: #513e2b;              /* Link color */
+    text-decoration: none;       /* Remove underline from link */
+}
+
+.boxh1 a:hover {
+    text-decoration: underline;  /* Underline on hover */
+}
+
+
+/* boxh2 */
+
+.boxh2  {
+    width: 500px;                /* Width of the box */
+    padding: 20px;               /* Padding inside the box */
+    background-color: #FEFAE0;   /* Background color */
+    border: 10px solid#e9edc9;      /* Border around the box */
+    border-radius: 20px;         /* Rounded corners */
+    text-align:center;          /* Center the text inside the box */
+    position: flex;
+    z-index: 1000;
+    top: 50%;
+    left: 0%;
+ 
+
+    
+}
+
+/* Add margin or spacing around elements in the box */
+.boxh2 h2 {
+    margin-bottom: 10px;         /* Space below the heading */
+}
+
+.boxh2 p {
+    margin-bottom: 10px;         /* Space below the paragraph */
+}
+
+.boxh2 a {
+    color: #513e2b;              /* Link color */
+    text-decoration: none;       /* Remove underline from link */
+}
+
+.boxh2 a:hover {
+    text-decoration: underline;  /* Underline on hover */
+}
+
+/*-- Coding By CodingNepal -formular- codingnepalweb.com --*/
+
+.wrapper{
+  position: flex;
+  max-width: 300px;
+  width: 100%;
+  background: #fefae0;
+  padding: 60px;
+  border-radius: 6px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+  margin-left: 20%;
+
+}
+.wrapper h2{
+  position: relative;
+  font-size: 22px;
+  font-weight: 600;
+  color: #333;
+}
+.wrapper h2::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 28px;
+  border-radius: 12px;
+  background: #513e2b;
+}
+.wrapper form{
+  margin-top: 30px;
+}
+.wrapper form .input-box{
+  height: 52px;
+  margin: 18px 0;
+}
+form .input-box input{
+  height: 100%;
+  width: 100%;
+  outline: none;
+  padding: 0 15px;
+  font-size: 17px;
+  font-weight: 400;
+  color: #333;
+  border: 1.5px solid #C7BEBE;
+  border-bottom-width: 2.5px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+.input-box input:focus,
+.input-box input:valid{
+  border-color: #513e2b;
+}
+form .policy{
+  display: flex;
+  align-items: center;
+}
+form h3{
+  color: #707070;
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+.input-box.button input{
+  color: #fff;
+  letter-spacing: 1px;
+  border: none;
+  background: #513e2b;
+  cursor: pointer;
+}
+.input-box.button input:hover{
+  background: #513e2b;
+}
+form .text h3{
+ color: #333;
+ width: 100%;
+ text-align: center;
+}
+form .text h3 a{
+  color: #513e2b;
+  text-decoration: none;
+}
+form .text h3 a:hover{
+  text-decoration: underline;
+}
+
+
+.boxone  {
+    width: 500px;                /* Width of the box */
+    padding: 20px;               /* Padding inside the box */
+    background-color: #FEFAE0;   /* Background color */
+    border: 10px solid#e9edc9;      /* Border around the box */
+    border-radius: 10px;         /* Rounded corners */
+    text-align:center;          /* Center the text inside the box */
+    position: absolute;
+    position: flex;
+    z-index: 1000;
+    top: 50%;
+    right: 0;
+    margin-right: 20%;
+ 
+
+    
+}
+
+/* Add margin or spacing around elements in the box */
+.boxone h2 {
+    margin-bottom: 10px;         /* Space below the heading */
+}
+
+.boxone p {
+    margin-bottom: 10px;         /* Space below the paragraph */
+}
+
+.boxone a {
+    color: #513e2b;              /* Link color */
+    text-decoration: none;       /* Remove underline from link */
+}
+
+.boxone a:hover {
+    text-decoration: underline;  /* Underline on hover */
+}
+.boxone  {
+    width: 500px;                /* Width of the box */
+    padding: 20px;               /* Padding inside the box */
+    background-color: #FEFAE0;   /* Background color */
+    border: 10px solid#e9edc9;      /* Border around the box */
+    border-radius: 10px;         /* Rounded corners */
+    text-align:center;          /* Center the text inside the box */
+    position: absolute;
+    position: flex;
+    z-index: 1000;
+    top: 50%;
+    right: 0;
+    margin-right: 20%;
+ 
+
+    
+}
+
+
+/* Add margin or spacing around elements in the box */
+.boxone h2 {
+    margin-bottom: 10px;         /* Space below the heading */
+}
+
+.boxone p {
+    margin-bottom: 10px;         /* Space below the paragraph */
+}
+
+.boxone a {
+    color: #513e2b;              /* Link color */
+    text-decoration: none;       /* Remove underline from link */
+}
+
+.boxone a:hover {
+    text-decoration: underline;  /* Underline on hover */
+}
+
+
+
+
+.boxk1 {
+    width: 500px;                /* Width of the box */
+    padding: 20px;               /* Padding inside the box */
+    background-color: #FEFAE0;   /* Background color */
+    border: 10px solid#e9edc9;      /* Border around the box */
+    border-radius: 10px;         /* Rounded corners */
+    text-align:center;          /* Center the text inside the box */
+    position: flex;
+    z-index: 1000;
+    top: 50%;
+    right: 0%;
+    margin-right: 20%;
+    
+}
+
+.boxk2 {
+    width: 500px;                /* Width of the box */
+    padding: 20px;               /* Padding inside the box */
+    background-color: #FEFAE0;   /* Background color */
+    border: 10px solid#e9edc9;      /* Border around the box */
+    border-radius: 10px;         /* Rounded corners */
+    text-align:center;          /* Center the text inside the box */
+    position: flex;
+    z-index: 1000;
+    top: 50%;
+    right: 0%;
+    margin-right: 20%;
+
+}
+
+.boxk3 {
+    width: 500px;                /* Width of the box */
+    padding: 20px;               /* Padding inside the box */
+    background-color: #FEFAE0;   /* Background color */
+    border: 10px solid#e9edc9;      /* Border around the box */
+    border-radius: 10px;         /* Rounded corners */
+    text-align:center;          /* Center the text inside the box */
+
+    position: flex;
+    z-index: 1000;
+    top: 50%;
+    right: 0%;
+    margin-right: 20%;
+
+}
+
+.hatha {
+    height: auto;
+    width: 100%;
+    opacity: 60%;
+}
+
+/*-------footer section-------*/
+
+.footer-content {
+color:#513e2b;
+background-color: #ccd5ae;
+display: flex;
+align-items:center;
+justify-content:space-between;
+bottom: 0%;
+
+
+
+}
+
+
+
+
+
+/*------- media queries-------*/
+
+@media (max-width: 320px) {
+  
+}
+@media (max-width: 900px) {
+.boxtwo {
+    display: none;
+}
+.boxthree {
+    display: none;
+}
+}
+
+@media (min-width: 769px) {
+
+}
+
+
+
+
